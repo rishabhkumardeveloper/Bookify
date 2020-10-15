@@ -1,0 +1,26 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World</title>
+    <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VpKrAVn5AqRlgNT3OVcUJ5T1fHSU_0zRFM8--hjrhkJr3D8VCMEkV868LifFO_f5yMEQGf7YPDBY5Ehvd1GV9PoslGo0Pjvpod3M22bXfoIFc386RsZWGog4y3GuNetPqY7VUv1aKgpuA7MLTYa6uoQhctw6QpGDU_xe8EUH7w4LqUtJDggHf9Fq1dM4C4_waGOylWcMOTjTK6Aof2yVc0MPFUREDraw_ZNSY6fIJdJpMVnBiwpFBTBj-EwVuRU2pH0lQLatt7PQ1lisCf65Tcya_AB3hz2lbjgowdL4f37zvmRFb_T6UGGdSlPFzzFKczo2Bb7oHLSEbJiMbyJtpG-D9vAGbIthkrgz0zrFt5djUapgfMxYsI_ygt_yT91-A89DLEn5WTbWHbd4F0ynfVsgswfyFAr6X_Mqd-VtYRsbao7bW4mTdE25mL9S-m2_uunnQ-pnWLm37uhZT5bD_Q" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMHMtMzQtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9ndGYydGxwM2QxOTRtdmJic3Q1a2lrdGNjZDlybHM4bS9wbGE2aWswbmI5cHVhcGNibWJpbzRnbXM1bTBubm9jcy8xNjAyNzY3Nzc1MDAwLzE1MTI2NTg1MTMxNDg1NTgyMTg4LzA4NzcxODkwMjk5NTMwNjk0MDM1LzFXTzB6bHBMa05KZ2lhTVRpeE5DajBYNWN6eTNIaXludz9lPWRvd25sb2FkJmF1dGh1c2VyPTAmbm9uY2U9YmdxYzg1aWVvOWRicyZ1c2VyPTA4NzcxODkwMjk5NTMwNjk0MDM1Jmhhc2g9dHE5ZmxlbGRsZnQ3MXQzanY5aW5kZDF2MzFsN3ZuOHE"/></head>
+        <body>
+            <h1>MOVIE CHATBOT </h1>
+<div id="webchat"/>
+<script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+
+// Or you can replace latest with a specific version
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    socketPath: "/socket.io/",
+    title: "yourownmoviebot",
+    subtitle: "moviebot!",
+
+  })
+</script>
+
+        </body>
+</html>
