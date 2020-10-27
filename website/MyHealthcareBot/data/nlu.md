@@ -59,18 +59,22 @@
 - I want to book food for my movie.
 - order food
 - booking food
+- i wanna order food
+- i wanna buy food
 
 
-##intent:replyofhowyoufeel
+##intent:replyofhowyoufeel1
 - I would like chinese
-- I would like some rolls
+
+##intent:replyofhowyoufeel2
 - I would like indian
-- please give me some thai food
 
 ##intent:ask1
 
 - some chicken
 - i would like noodles
+- noodles
+- Done
 
 ##intent:ask2
 - 1
@@ -78,17 +82,23 @@
 - 3
 
 ##intent:ask3
-- we are 3
-- book for 5  people
+- I'm a single person
+- I'm one
+
+##intent:ask31
+- We are two people
 
 ##intent:ask4
 - we would love it while watching our movie.
 - we would like you to book a table for us.
+- binge 
+- table 
 
 
 ##intent:ask5
 - yeah it's 8584948604
 - it's ...
+- 85849604
 
 
 ##intent:ask6

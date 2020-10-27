@@ -1,0 +1,76 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - howareyoufeeling
+  - replyofhowyoufeel
+  - ask1
+  - ask2
+  - ask3
+  - ask4
+  - ask5
+  - ask6
+  - ask7
+  - ask8
+  - ask9
+  - ask10
+  - ask11
+
+responses:
+  utter_greet:
+  - text: "Hey! how may I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Thank you for visiting, take care!"
+
+  utter_iamabot:
+  - text: "I am a healthcare bot."
+
+  utter_howareyoufeeling:
+  - text: "Alright, may I know which cousine would you like?"
+
+  utter_replyofhowyoufeel:
+  - text: "ok, so in chinese we have: noodles, baos and chicken, what would you like? Proceed to make the Payment in the following Link: https://rishabhkumardeveloper.github.io/IWP_Movie_Chatbot/"
+
+  utter_ask1:
+  - text: "noted, when will you like to have it?: 1) during interval 2)first half of movie 3)second half of movie"
+
+  utter_ask2:
+  - text: "ok noted, please let me know the number of people coming.."
+
+  utter_ask3:
+  - text: "ok, would you like to binge watch and eat or should i reserve a table at our restaurant?"
+
+  utter_ask4:
+  - text: "ok one final step, please share your contact number."
+
+  utter_ask5:
+  - text: "done, Thanks for all the booking information. Your order is confirmed and will be delivered on time."
+
+  utter_ask6:
+  - text: "Thank you for visiting, happy watching!!!"
+
+  utter_ask11:
+
+  - text: "welcome, do visit me again!"
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

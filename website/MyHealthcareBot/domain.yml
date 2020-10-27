@@ -8,6 +8,9 @@ intents:
   - bot_challenge
   - howareyoufeeling
   - replyofhowyoufeel
+  - replyofhowyoufeel1
+  - replyofhowyoufeel2
+  - replyofhowyoufeel3
   - ask1
   - ask2
   - ask3
@@ -19,6 +22,7 @@ intents:
   - ask9
   - ask10
   - ask11
+  - ask31
 
 responses:
   utter_greet:
@@ -41,17 +45,25 @@ responses:
   - text: "I am a healthcare bot."
 
   utter_howareyoufeeling:
-  - text: "Alright, may I know which cousine would you like?"
+  - text: "Alright, may I know which cuisine would you like?"
 
-  utter_replyofhowyoufeel:
-  - text: "ok, so in chinese we have: noodles, baos and chicken, what would you like?"
+  utter_replyofhowyoufeel1:
+  - text: "ok, so in chinese we have: noodles, baos and chicken, what would you like? Proceed to make the Payment in the following Link: https://rishabhkumardeveloper.github.io/IWP_Movie_Chatbot/"
+  utter_replyofhowyoufeel2:
+  - text: "ok, so in Indian we have: Pav Bhaaji,Raajma Chawal,Pohaa, what would you like? Proceed to make the Payment in the following Link: https://rishabhkumardeveloper.github.io/IWP_Movie_Chatbot/"
+
+  utter_replyofhowyoufeel3:
+  - text: "ok, so in Mexican we have: Tacos,Buritos, Nachos with Salsa, what would you like? Proceed to make the Payment in the following Link: https://rishabhkumardeveloper.github.io/IWP_Movie_Chatbot/"
 
   utter_ask1:
   - text: "noted, when will you like to have it?: 1) during interval 2)first half of movie 3)second half of movie"
 
   utter_ask2:
   - text: "ok noted, please let me know the number of people coming.."
-
+  utter_ask_n1:
+  - text: "ok, would you like to binge watch and eat or should i reserve a table at our restaurant? "
+  utter_ask_n2:
+  - text: "ok, would you like to binge watch and eat or should i reserve a table at our restaurant?"
   utter_ask3:
   - text: "ok, would you like to binge watch and eat or should i reserve a table at our restaurant?"
 
@@ -64,7 +76,6 @@ responses:
   utter_ask6:
   - text: "Thank you for visiting, happy watching!!!"
 
-  
   utter_ask11:
 
   - text: "welcome, do visit me again!"
